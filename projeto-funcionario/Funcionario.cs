@@ -24,7 +24,7 @@ namespace mariiidutra
         {
             return Nome
             + ", R$"
-            + SalarioLiquido();
+            + SalarioLiquido().ToString("F2", CultureInfo.InvariantCulture);
         }
     }
 }
